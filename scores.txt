@@ -1,0 +1,2 @@
+high score = 7097
+c'est pas bien de se mettre un faux high score
