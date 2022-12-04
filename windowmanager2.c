@@ -21,4 +21,7 @@ void setwin2(win_t *win)
     win->ico1 = sfImage_createFromFile("sprites/happytwi.png");
     win->ico2 = sfImage_createFromFile("sprites/angrytwi.png");
     win->ico3 = sfImage_createFromFile("sprites/gasptwi.png");
+    win->sbuff = sfSoundBuffer_createFromFile("sounds/laser.ogg");
+    win->sound = sfSound_create();
+    sfSound_setBuffer(win->sound, win->sbuff);
 }

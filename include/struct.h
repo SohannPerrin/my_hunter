@@ -51,6 +51,8 @@
         sfImage *ico1;
         sfImage *ico2;
         sfImage *ico3;
+        sfSoundBuffer *sbuff;
+        sfSound *sound;
     }win_t;
 
 #endif /* STRUCT_H_ */

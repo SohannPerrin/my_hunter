@@ -41,6 +41,7 @@ void checkhit(sprite_t *sprite, win_t *win)
         win->click = 0;
         sprite->is_spawn = 0;
         win->score += 1;
+        sfSound_play(win->sound);
     }
 }
 

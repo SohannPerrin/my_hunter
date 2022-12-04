@@ -25,7 +25,7 @@ COPIES	=	*~
 
 COPIES2	=	#*#
 
-NAME	=	my_hunter
+NAME	=	canterlot_defender
 
 MAKE	=	make
 

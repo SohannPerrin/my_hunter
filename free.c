@@ -28,4 +28,6 @@ void free_win(win_t *win)
     sfClock_destroy(win->clock);
     sfText_destroy(win->score_text);
     sfText_destroy(win->hiscore_text);
+    sfSound_destroy(win->sound);
+    sfSoundBuffer_destroy(win->sbuff);
 }
