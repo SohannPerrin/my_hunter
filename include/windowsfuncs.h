@@ -34,10 +34,11 @@
     void set_textscale(sfText *text, double posx, double posy);
     void draw4(sprite_t *sprite, win_t *win);
     void setspriteorigin(sprite_t *sprite, double posx, double posy);
-    void draw3(win_t *win, sprite_t *sprite1, sfText *sprite2,\
+    void draw3(win_t *win, sfSprite *sprite1, sfText *sprite2,\
     sfText *sprite3);
     void displayfunc(win_t *win);
-    int get_score(char const *filepath);
+    int get_score(char *filepath);
     void setwin2(win_t *win);
+    int makehigh(char *filepath, int score);
 
 #endif /* WINDOWFUNCS_H_ */

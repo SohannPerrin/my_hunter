@@ -7,6 +7,7 @@
 
 #include <fcntl.h>
 #include <unistd.h>
+#include "include/windowsfuncs.h"
 
 static int r_u_a_winner(int *printer, char buff, int *prev, int win)
 {
@@ -36,7 +37,7 @@ static int ifunc(char buff)
     return (0);
 }
 
-int get_score(char const *filepath)
+int get_score(char *filepath)
 {
     char buff[100];
     int printer, prev, win, i, j, k;

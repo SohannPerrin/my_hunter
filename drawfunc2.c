@@ -20,7 +20,7 @@ void draw4(sprite_t *sprite, win_t *win)
     sfRenderWindow_drawSprite(win->window, win->msprite3.sprite, NULL);
 }
 
-void draw3(win_t *win, sprite_t *sprite1, sfText *sprite2, sfText *sprite3)
+void draw3(win_t *win, sfSprite *sprite1, sfText *sprite2, sfText *sprite3)
 {
     sfRenderWindow_drawSprite(win->window, sprite1, NULL);
     sfRenderWindow_drawText(win->window, sprite2, NULL);
